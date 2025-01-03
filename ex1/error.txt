@@ -1,1 +1,0 @@
-ls: q6/row1/: No such file or directory
