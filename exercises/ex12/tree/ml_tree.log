@@ -1,0 +1,284 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Shikhars-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: iqtree2 -s aligned_sequences.aln --prefix tree/ml_tree --quiet -redo
+Seed:    881448 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov 27 22:03:54 2024
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file aligned_sequences.aln ... Fasta format detected
+Reading fasta file: done in 0.000108004 secs using 85.18% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 27 sequences with 253 columns, 162 distinct patterns
+149 parsimony-informative, 12 singleton sites, 92 constant sites
+WARNING: Some sequence names are changed as follows:
+Wolbachia_pipientis:25-275 -> Wolbachia_pipientis_25-275
+Fusibacter_paucivorans_consensus:25-276 -> Fusibacter_paucivorans_consensus_25-276
+Fusibacter_paucivorans:25-276 -> Fusibacter_paucivorans_25-276
+Mycoplasma_pneumoniae_consensus:25-276 -> Mycoplasma_pneumoniae_consensus_25-276
+Mycoplasma_pneumoniae:25-276 -> Mycoplasma_pneumoniae_25-276
+Sulfolobus_islandicus:25-277 -> Sulfolobus_islandicus_25-277
+Sulfolobus_islandicus_consensus:25-277 -> Sulfolobus_islandicus_consensus_25-277
+Methanococcus_aeolicus_consensus:25-277 -> Methanococcus_aeolicus_consensus_25-277
+Methanococcus_aeolicus:25-277 -> Methanococcus_aeolicus_25-277
+Leptospira_borgpetersenii_consensus:25-277 -> Leptospira_borgpetersenii_consensus_25-277
+Leptospira_borgpetersenii:25-277 -> Leptospira_borgpetersenii_25-277
+Synechococcus_elongatus:25-277 -> Synechococcus_elongatus_25-277
+Fusibacter_paucivorans_consensus:25-277 -> Fusibacter_paucivorans_consensus_25-277
+Synechococcus_elongatus_consensus:25-277 -> Synechococcus_elongatus_consensus_25-277
+NZ_CP046925.1:1168280-1168532 -> NZ_CP046925.1_1168280-1168532
+Pseudomonas_aeruginosa_PAO1_NC_002516.2:722623-722875 -> Pseudomonas_aeruginosa_PAO1_NC_002516.2_722623-722875
+Pseudomonas_aeruginosa_UCBPP-PA14_NC_008463.1:733613-733865 -> Pseudomonas_aeruginosa_UCBPP-PA14_NC_008463.1_733613-733865
+Escherichia_coli_consensus:25-277 -> Escherichia_coli_consensus_25-277
+Pseudomonas_oleovorans_GD04132_NZ_CP104579.1:2754046-2754298 -> Pseudomonas_oleovorans_GD04132_NZ_CP104579.1_2754046-2754298
+Pseudomonas_protegens_CHA0_NZ_LS999205.1:123690-123942 -> Pseudomonas_protegens_CHA0_NZ_LS999205.1_123690-123942
+Pseudomonas_putida_NBRC_14164_NC_021505.1:164552-164804 -> Pseudomonas_putida_NBRC_14164_NC_021505.1_164552-164804
+Pseudomonas_syringae_pv_tomato_str_DC3000_NC_004578.1:667256-667508 -> Pseudomonas_syringae_pv_tomato_str_DC3000_NC_004578.1_667256-667508
+NC_000913.3:224304-224556 -> NC_000913.3_224304-224556
+Escherichia_coli:25-277 -> Escherichia_coli_25-277
+NZ_CP028827.1:46939-47191 -> NZ_CP028827.1_46939-47191
+Bacillus_subtilis_consensus:25-277 -> Bacillus_subtilis_consensus_25-277
+Bacillus_subtilis:25-277 -> Bacillus_subtilis_25-277
+
+                                                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.86781e-06 secs using 88.97% CPU
+   1  Wolbachia_pipientis_25-275                                             0.79%    failed      1.93%
+   2  Fusibacter_paucivorans_consensus_25-276                                0.40%    passed     93.10%
+   3  Fusibacter_paucivorans_25-276                                          0.40%    passed     90.74%
+   4  Mycoplasma_pneumoniae_consensus_25-276                                 0.40%    passed     18.67%
+   5  Mycoplasma_pneumoniae_25-276                                           0.40%    failed      3.35%
+   6  Sulfolobus_islandicus_25-277                                           0.00%    failed      0.01%
+   7  Sulfolobus_islandicus_consensus_25-277                                 0.00%    failed      0.00%
+   8  Methanococcus_aeolicus_consensus_25-277                                0.00%    passed     13.56%
+   9  Methanococcus_aeolicus_25-277                                          0.00%    passed     13.56%
+  10  Leptospira_borgpetersenii_consensus_25-277                             0.00%    passed     87.60%
+  11  Leptospira_borgpetersenii_25-277                                       0.00%    passed     87.60%
+  12  Synechococcus_elongatus_25-277                                         0.00%    passed     95.86%
+  13  Fusibacter_paucivorans_consensus_25-277                                0.00%    passed     59.84%
+  14  Synechococcus_elongatus_consensus_25-277                               0.00%    passed     90.93%
+  15  NZ_CP046925.1_1168280-1168532                                          0.00%    passed     12.83%
+  16  Pseudomonas_aeruginosa_PAO1_NC_002516.2_722623-722875                  0.00%    passed     95.86%
+  17  Pseudomonas_aeruginosa_UCBPP-PA14_NC_008463.1_733613-733865            0.00%    passed     95.86%
+  18  Escherichia_coli_consensus_25-277                                      0.00%    passed     95.86%
+  19  Pseudomonas_oleovorans_GD04132_NZ_CP104579.1_2754046-2754298           0.00%    passed     98.44%
+  20  Pseudomonas_protegens_CHA0_NZ_LS999205.1_123690-123942                 0.00%    passed     97.02%
+  21  Pseudomonas_putida_NBRC_14164_NC_021505.1_164552-164804                0.00%    passed     98.09%
+  22  Pseudomonas_syringae_pv_tomato_str_DC3000_NC_004578.1_667256-667508    0.00%    passed     94.50%
+  23  NC_000913.3_224304-224556                                              0.00%    passed     86.39%
+  24  Escherichia_coli_25-277                                                0.00%    passed     86.39%
+  25  NZ_CP028827.1_46939-47191                                              0.00%    passed     92.29%
+  26  Bacillus_subtilis_consensus_25-277                                     0.00%    passed     94.55%
+  27  Bacillus_subtilis_25-277                                               0.00%    passed     80.16%
+****  TOTAL                                                                  0.09%  4 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Leptospira_borgpetersenii_25-277 is identical to Leptospira_borgpetersenii_consensus_25-277 but kept for subsequent analysis
+NOTE: Pseudomonas_aeruginosa_UCBPP-PA14_NC_008463.1_733613-733865 is identical to Pseudomonas_aeruginosa_PAO1_NC_002516.2_722623-722875 but kept for subsequent analysis
+NOTE: Escherichia_coli_25-277 is identical to NC_000913.3_224304-224556 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Escherichia_coli_consensus_25-277 (identical to Pseudomonas_aeruginosa_PAO1_NC_002516.2_722623-722875) is ignored but added at the end
+Alignment was printed to tree/ml_tree.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to tree/ml_tree.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -2703.894
+Optimal log-likelihood: -2703.713
+Rate parameters:  A-C: 0.58929  A-G: 1.76739  A-T: 1.23048  C-G: 0.32796  C-T: 3.73619  G-T: 1.00000
+Base frequencies:  A: 0.266  C: 0.188  G: 0.347  T: 0.199
+Proportion of invariable sites: 0.184
+Gamma shape alpha: 0.737
+Parameters optimization took 1 rounds (0.006 sec)
+Time for fast ML tree search: 0.038 seconds
+
+NOTE: ModelFinder requires 1 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 253 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         2897.495     57  5908.990     5942.897     6110.393
+  2  GTR+F+I       2755.929     58  5627.858     5663.136     5832.794
+  3  GTR+F+G4      2706.763     58  5529.526     5564.804     5734.462
+  4  GTR+F+I+G4    2703.644     59  5525.289     5561.973     5733.759
+  5  GTR+F+R2      2713.266     59  5544.532     5581.216     5753.002
+  6  GTR+F+R3      2700.408     61  5522.815     5562.417     5738.352
+  7  GTR+F+R4      2700.164     63  5526.328     5568.995     5748.932
+ 14  GTR+F+I+R2    2709.179     60  5538.357     5576.482     5750.361
+ 15  GTR+F+I+R3    2699.662     62  5523.325     5564.441     5742.395
+ 16  GTR+F+I+R4    2699.430     64  5526.860     5571.116     5752.997
+ 25  SYM+G4        2714.593     55  5539.186     5570.455     5733.522
+ 26  SYM+I+G4      2712.212     56  5536.424     5568.995     5734.293
+ 28  SYM+R3        2708.898     58  5533.796     5569.075     5738.733
+ 37  SYM+I+R3      2707.144     59  5532.288     5568.972     5740.758
+ 47  TVM+F+G4      2716.349     57  5546.697     5580.605     5748.100
+ 48  TVM+F+I+G4    2712.902     58  5541.805     5577.083     5746.741
+ 50  TVM+F+R3      2708.610     60  5537.220     5575.345     5749.223
+ 59  TVM+F+I+R3    2706.783     61  5535.566     5575.168     5751.103
+ 69  TVMe+G4       2714.645     54  5537.291     5567.291     5728.094
+ 70  TVMe+I+G4     2712.218     55  5534.436     5565.705     5728.772
+ 72  TVMe+R3       2708.913     57  5531.826     5565.734     5733.229
+ 81  TVMe+I+R3     2707.140     58  5530.281     5565.559     5735.217
+ 91  TIM3+F+G4     2708.148     56  5528.296     5560.867     5726.166
+ 92  TIM3+F+I+G4   2705.171     57  5524.342     5558.250     5725.746
+ 94  TIM3+F+R3     2702.084     59  5522.167     5558.851     5730.637
+103  TIM3+F+I+R3   2701.480     60  5522.961     5561.086     5734.964
+113  TIM3e+G4      2714.813     53  5535.626     5564.389     5722.895
+114  TIM3e+I+G4    2712.461     54  5532.922     5562.922     5723.725
+116  TIM3e+R3      2709.410     56  5530.820     5563.391     5728.690
+125  TIM3e+I+R3    2707.605     57  5529.209     5563.117     5730.613
+135  TIM2+F+G4     2715.242     56  5542.485     5575.056     5740.355
+136  TIM2+F+I+G4   2712.243     57  5538.487     5572.395     5739.890
+138  TIM2+F+R3     2708.165     59  5534.330     5571.014     5742.800
+147  TIM2+F+I+R3   2708.217     60  5536.434     5574.559     5748.438
+157  TIM2e+G4      2725.093     53  5556.186     5584.950     5743.455
+158  TIM2e+I+G4    2722.666     54  5553.333     5583.333     5744.136
+160  TIM2e+R3      2718.087     56  5548.175     5580.746     5746.044
+169  TIM2e+I+R3    2717.249     57  5548.498     5582.405     5749.901
+179  TIM+F+G4      2715.470     56  5542.940     5575.511     5740.810
+180  TIM+F+I+G4    2712.674     57  5539.348     5573.255     5740.751
+182  TIM+F+R3      2708.846     59  5535.692     5572.376     5744.162
+191  TIM+F+I+R3    2709.159     60  5538.318     5576.443     5750.321
+201  TIMe+G4       2724.243     53  5554.486     5583.250     5741.756
+202  TIMe+I+G4     2721.833     54  5551.666     5581.666     5742.469
+204  TIMe+R3       2717.706     56  5547.412     5579.983     5745.282
+213  TIMe+I+R3     2716.896     57  5547.792     5581.700     5749.195
+223  TPM3u+F+G4    2717.628     55  5545.256     5576.525     5739.593
+224  TPM3u+F+I+G4  2714.346     56  5540.693     5573.264     5738.563
+226  TPM3u+F+R3    2710.617     58  5537.234     5572.513     5742.171
+235  TPM3u+F+I+R3  2709.077     59  5536.154     5572.838     5744.624
+245  TPM3+G4       2714.866     52  5533.731     5561.291     5717.467
+246  TPM3+I+G4     2712.512     53  5531.025     5559.789     5718.295
+248  TPM3+R3       2709.492     55  5528.983     5560.252     5723.320
+257  TPM3+I+R3     2707.648     56  5527.296     5559.868     5725.166
+267  TPM2u+F+G4    2725.545     55  5561.091     5592.360     5755.427
+268  TPM2u+F+I+G4  2721.919     56  5555.838     5588.409     5753.707
+270  TPM2u+F+R3    2716.135     58  5548.269     5583.547     5753.206
+279  TPM2u+F+I+R3  2715.376     59  5548.751     5585.435     5757.221
+289  TPM2+G4       2725.126     52  5554.251     5581.811     5737.988
+290  TPM2+I+G4     2722.725     53  5551.450     5580.214     5738.720
+292  TPM2+R3       2718.113     55  5546.226     5577.495     5740.562
+301  TPM2+I+R3     2717.242     56  5546.484     5579.055     5744.354
+311  K3Pu+F+G4     2725.635     55  5561.270     5592.539     5755.606
+312  K3Pu+F+I+G4   2722.226     56  5556.452     5589.023     5754.321
+314  K3Pu+F+R3     2717.274     58  5550.548     5585.826     5755.484
+323  K3Pu+F+I+R3   2716.706     59  5551.413     5588.097     5759.883
+333  K3P+G4        2724.295     52  5552.589     5580.149     5736.326
+334  K3P+I+G4      2721.899     53  5549.798     5578.562     5737.068
+336  K3P+R3        2717.708     55  5545.415     5576.684     5739.751
+345  K3P+I+R3      2716.889     56  5545.778     5578.349     5743.647
+355  TN+F+G4       2716.121     55  5542.241     5573.511     5736.578
+356  TN+F+I+G4     2713.341     56  5538.682     5571.253     5736.551
+358  TN+F+R3       2709.371     58  5534.743     5570.021     5739.680
+367  TN+F+I+R3     2709.511     59  5537.023     5573.707     5745.493
+377  TNe+G4        2725.081     52  5554.163     5581.723     5737.899
+378  TNe+I+G4      2722.682     53  5551.363     5580.127     5738.633
+380  TNe+R3        2718.304     55  5546.608     5577.877     5740.944
+389  TNe+I+R3      2717.404     56  5546.808     5579.379     5744.678
+399  HKY+F+G4      2726.326     54  5560.653     5590.653     5751.456
+400  HKY+F+I+G4    2722.933     55  5555.867     5587.136     5750.203
+402  HKY+F+R3      2717.674     57  5549.348     5583.255     5750.751
+411  HKY+F+I+R3    2717.025     58  5550.049     5585.328     5754.986
+421  K2P+G4        2725.128     51  5552.257     5578.645     5732.460
+422  K2P+I+G4      2722.748     52  5549.496     5577.056     5733.232
+424  K2P+R3        2718.296     54  5544.591     5574.591     5735.394
+433  K2P+I+R3      2717.398     55  5544.796     5576.065     5739.132
+443  F81+F+G4      2784.374     53  5674.748     5703.512     5862.018
+444  F81+F+I+G4    2782.209     54  5672.418     5702.418     5863.221
+446  F81+F+R3      2779.903     56  5671.806     5704.377     5869.676
+455  F81+F+I+R3    2779.663     57  5673.326     5707.234     5874.729
+465  JC+G4         2787.405     50  5674.811     5700.058     5851.480
+466  JC+I+G4       2785.967     51  5673.933     5700.321     5854.136
+468  JC+R3         2784.223     53  5674.446     5703.210     5861.716
+477  JC+I+R3       2783.461     54  5674.922     5704.922     5865.725
+Akaike Information Criterion:           TIM3+F+R3
+Corrected Akaike Information Criterion: TIM3+F+I+G4
+Bayesian Information Criterion:         TPM3+G4
+Best-fit model: TPM3+G4 chosen according to BIC
+
+All model information printed to tree/ml_tree.model.gz
+CPU time for ModelFinder: 1.179 seconds (0h:0m:1s)
+Wall-clock time for ModelFinder: 1.194 seconds (0h:0m:1s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2787.909
+2. Current log-likelihood: -2717.221
+3. Current log-likelihood: -2714.897
+Optimal log-likelihood: -2714.864
+Rate parameters:  A-C: 0.39201  A-G: 2.24763  A-T: 1.00000  C-G: 0.39201  C-T: 2.24763  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.447
+Parameters optimization took 3 rounds (0.016 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00203609 secs using 99.75% CPU
+Computing ML distances took 0.002064 sec (of wall-clock time) 0.002054 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 5.91278e-05 secs using 153.9% CPU
+Computing RapidNJ tree took 0.000192 sec (of wall-clock time) 0.000192 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2720.653
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.083 second
+Computing log-likelihood of 98 initial trees ... 0.087 seconds
+Current best score: -2714.823
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2713.293
+Iteration 10 / LogL: -2714.480 / Time: 0h:0m:1s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -2710.355
+Iteration 20 / LogL: -2717.556 / Time: 0h:0m:1s
+Finish initializing candidate tree set (9)
+Current best tree score: -2710.355 / CPU time: 0.355
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -2713.458 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 40 / LogL: -2710.809 / Time: 0h:0m:1s (0h:0m:1s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -2710.309
+Iteration 50 / LogL: -2710.470 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 60 / LogL: -2714.732 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 70 / LogL: -2710.552 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 80 / LogL: -2713.338 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 90 / LogL: -2713.459 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 100 / LogL: -2710.919 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 110 / LogL: -2710.829 / Time: 0h:0m:3s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 119 ITERATIONS / Time: 0h:0m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2710.309
+Optimal log-likelihood: -2710.309
+Rate parameters:  A-C: 0.40013  A-G: 2.23319  A-T: 1.00000  C-G: 0.40013  C-T: 2.23319  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.427
+Parameters optimization took 1 rounds (0.003 sec)
+BEST SCORE FOUND : -2710.309
+Total tree length: 4.062
+
+Total number of iterations: 119
+CPU time used for tree search: 2.038 sec (0h:0m:2s)
+Wall-clock time used for tree search: 2.074 sec (0h:0m:2s)
+Total CPU time used: 3.245 sec (0h:0m:3s)
+Total wall-clock time used: 3.300 sec (0h:0m:3s)
+
+Analysis results written to: 
+  IQ-TREE report:                tree/ml_tree.iqtree
+  Maximum-likelihood tree:       tree/ml_tree.treefile
+  Likelihood distances:          tree/ml_tree.mldist
+  Screen log file:               tree/ml_tree.log
+
+Date and Time: Wed Nov 27 22:03:58 2024
